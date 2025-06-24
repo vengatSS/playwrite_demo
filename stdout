@@ -1,0 +1,7 @@
+Feature: Login Functionality # features/login.feature:1
+
+  Scenario: Login with valid credentials                # features/login.feature:3
+    Given the user is on the login page                 # features/steps/login_steps.py:7
+    When the user enters valid credentials              # features/steps/login_steps.py:12
+    Then the user should be redirected to the dashboard # features/steps/login_steps.py:18
+
